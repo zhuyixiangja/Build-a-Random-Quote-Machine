@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 // eslint-disable-next-line no-unused-vars
-const projectName = 'random-quote-machine';
+// const projectName = 'random-quote-machine';        do we need this?
 let quotesData;
 
 /*
