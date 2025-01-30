@@ -70,7 +70,7 @@ function getQuote() {
 
   $('.quote-text').animate({ opacity: 0 }, 500, function () {
     $(this).animate({ opacity: 1 }, 500);
-    $('#text').html('<i class="fa fa-quote-left"> </i><span id="text">'+randomQuote.quote+'</span>
+    $('#text').html('<i class="fa fa-quote-left"></i><span id="text">${currentQuote}</span>
           <i class="fa fa-quote-right"> </i>');
   });
 
