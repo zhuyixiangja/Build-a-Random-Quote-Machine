@@ -96,7 +96,7 @@ function getQuote() {
 
 $(document).ready(function () {
 //  getQuotes().then(() => {
- //   getQuote();
+    getQuote();
 //  });
 
   $('#new-quote').on('click', getQuote);
